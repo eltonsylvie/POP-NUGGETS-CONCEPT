@@ -1,0 +1,152 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF6A00;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header li {
+    color: #f3f3f3;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Jockey One;
+}
+
+section {
+   overflow: hidden;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    height: 117px;
+    gap: 25px;
+}
+
+h1 span {
+    color: #FF0000;
+}
+
+h2 span {
+    color: #FF6A00;
+}
+
+section h1,
+h2 {
+    color: #f3f3f3;
+    font-family: Jockey One;
+}
+
+.sectionUm h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 18px;
+}
+
+.sectionUm h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    z-index: 1;
+    margin-top: 40px;
+    margin-right: 5em;
+    font-size: 40px;
+    font-weight: 400;
+    float: right;
+}
+
+
+img.Combo_1 {
+    position: relative;
+    top: -20px;
+    right: 20em;
+    clip-path: inset(20% 8% 15% 7%);
+    margin-right: -430px;
+    margin-top: 12vh;
+    width: 170px;
+    z-index: 2;
+}
+
+img.Combo_2 {
+    position: relative;
+    margin-right: -430px;
+    margin-top: 12vh;
+    width: 170px;
+    z-index: 2;
+}
+
+section img.maxAsset {
+    z-index: 1;
+    margin-top: -60px;
+    margin-left: 20px;
+    top: 0;
+    width: 400px;
+}
+
+section img.miniAsset {
+    width: 90px;
+    z-index: 1;
+    margin-top: -130px;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+section p.combo1 {
+    z-index: 3;
+    position: relative;
+    color: #f3f3f3;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: Jockey One;
+}
+
+section p.combo2 {
+    z-index: 0;
+    position: relative;
+    color: #f3f3f3;
+    background-color: green;
+    margin-left: 30em;
+    font-size: 20px;
+    font-family: Jockey One;
+}
+
+p.combo1, p.combo2 {
+    margin-left: 10em;
+    margin-top: 11em;
+}
+
+.combo1, .combo2, .Combo_1, .Combo_2 {
+    float: right;
+    position: relative;
+}
+
+.sectionUm {
+    height: 40em;
+    background-color: #FFC100;
+}
+
+ 
+.sectionDois {
+    background-color: #399400;
+}
+
+.sectionTres {
+    background-color: #FFEAAE;
+}
