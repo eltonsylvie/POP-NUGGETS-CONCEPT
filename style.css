@@ -79,7 +79,7 @@ img.Combo_1 {
     clip-path: inset(20% 8% 15% 7%);
     margin-right: -430px;
     margin-top: 12vh;
-    width: 170px;
+    width: 70px;
     z-index: 2;
 }
 
@@ -87,7 +87,7 @@ img.Combo_2 {
     position: relative;
     margin-right: -430px;
     margin-top: 12vh;
-    width: 170px;
+    width: 70px;
     z-index: 2;
 }
 
